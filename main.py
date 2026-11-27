@@ -3,7 +3,10 @@ import numpy as np
 from ultralytics import YOLO
 #importação de bibliotecas necessárias para processamento de vídeo, manipulação de arrays e uso do modelo YOLO para detecção de objetos. 
  
-VIDEO_PATH = "cruzamento_teste.mp4"  
+#VIDEO_PATH = "multa_validada.mp4"
+#VIDEO_PATH = "multa_invalida.mp4"
+VIDEO_PATH = "revisao_multa.mp4"
+
 CLASSES_VEICULOS = [2, 3, 5, 7]     
 
 print("[1/2] Carregando modelo neural para inspeção de emergência...")
